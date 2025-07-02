@@ -60,7 +60,7 @@ calculatePaginationDetails = (page) => {
       pageArray.push(i)
    }
    let currentItemIndex = (currentPage - 1) * this.state.pageSize;
-   for(let i = currentItemIndex; i < currentItemIndex + 3 && i <= (total - 1); i++) {
+   for(let i = currentItemIndex; i < currentItemIndex + 5 && i <= (total - 1); i++) {
       usersToBeShown.push(users[i])
    }
    let updatedState = {
