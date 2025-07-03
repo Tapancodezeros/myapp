@@ -1,4 +1,4 @@
-import './App.css'
+/*import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import SimplePagination from './Components/SimplePagination'
 function App() {
@@ -12,4 +12,4 @@ function App() {
       </div>
    );
 }
-export default App;
+export default App;*/
